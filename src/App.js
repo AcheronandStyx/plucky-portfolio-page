@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 // call swapPage in the main section of the app to swap pages as they are selected
 function App() {
   // declare the variables to track the active page and set the default active page to the About Me section.
-  const [activePage, swapActivePage] = useState("About");
+  const [activePage, setActivePage] = useState("About");
 
   // function to swap the page based on the users selection from the nav bar.
   function swapPage() {
@@ -25,10 +25,12 @@ function App() {
     console.log(activePage);
   }
 
+  console.log(activePage);
+
   return (
     <div>
-      <Header activePage={activePage}></Header>
-      <main>{swapPage()}</main>
+      <Header activePage={activePage} setActivePage={setActivePage}></Header>
+      <div>{swapPage()}</div>
       <Footer></Footer>
     </div>
   );
