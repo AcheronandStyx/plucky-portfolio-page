@@ -22,10 +22,7 @@ function App() {
     } else if (activePage === "Contact") {
       return <Contact></Contact>;
     }
-    console.log(activePage);
   }
-
-  console.log(activePage);
 
   return (
     <div>
