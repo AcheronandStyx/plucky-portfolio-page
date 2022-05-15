@@ -5,7 +5,12 @@ import Footer from "./components/Footer";
 import Project from "./components/Project";
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <Header></Header>
+      <Footer></Footer>
+    </div>
+  );
 }
 
 export default App;
