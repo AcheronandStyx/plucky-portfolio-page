@@ -10,6 +10,7 @@
 This is a basic developer portfolio page implemented with react. 
 
 You can find the repository here -> [Plucky Portfolio Page](https://github.com/AcheronandStyx/plucky-portfolio-page).
+
 The application is deployed via GitHub Pages here -> [Deployment](https://acheronandstyx.github.io/plucky-portfolio-page/).
 
 ## License
