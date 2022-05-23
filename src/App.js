@@ -6,6 +6,18 @@ import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 
+// CSS-> materialUi or chakraUI component libraries
+//materialUI looks very nice
+// Tailwinds CSS
+
+// JobSearch Apply to everything, its a numbers game,
+// DemoDay and career services
+// keep learning and building
+// check out codeWars for practice
+// employers sometimes send problems through hackerRank
+
+// High level technical questions - checking for soft skills
+
 // call swapPage in the main section of the app to swap pages as they are selected
 function App() {
   // declare the variables to track the active page and set the default active page to the About Me section.
