@@ -95,7 +95,7 @@ footer {
 
 .about {
   justify-content: center;
-  display: ;
+  display: flex;
   flex-direction: row;
   align-items: center;
   width: 75%;
