@@ -5,6 +5,7 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // CSS-> materialUi or chakraUI component libraries
 //materialUI looks very nice
@@ -39,7 +40,7 @@ function App() {
   return (
     <div>
       <Header activePage={activePage} setActivePage={setActivePage}></Header>
-      <div>{swapPage()}</div>
+      <div class="content">{swapPage()}</div>
       <Footer></Footer>
     </div>
   );

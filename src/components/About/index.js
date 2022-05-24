@@ -3,10 +3,11 @@ import headshot from "../../assets/images/Headshot.jpg";
 
 function About() {
   return (
-    <section id="about-me">
-      <div className="my-headshot">
-        <h2>About Me</h2>
+    <div class="about">
+      <div class="section-title">
+        <h2></h2>
         <img
+          class="headshot"
           src={headshot}
           alt="Picture of Matt Danielson"
           className="headshot"
@@ -21,7 +22,7 @@ function About() {
           the UMN's coding boot camp.
         </p>
       </div>
-    </section>
+    </div>
   );
 }
 

@@ -6,9 +6,9 @@ function Header(props) {
   const { activePage, setActivePage } = props;
   return (
     <header className="flex-row px-1">
-      <h2>
+      <h1>
         <p>Matthew Danielson</p>
-      </h2>
+      </h1>
       <Nav activePage={activePage} setActivePage={setActivePage}></Nav>
     </header>
   );
