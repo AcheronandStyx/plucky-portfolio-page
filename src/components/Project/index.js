@@ -14,7 +14,7 @@ function Project({ app, projectName, repo, imgName, blurb }) {
   return (
     <div class="card, col-sm, project">
       <div class="project-header">
-      <h2 class="card-title">{projectName}</h2>
+      <h2>{projectName}</h2>
       <p class="project-blurb">{blurb}</p>
       </div>
       <img

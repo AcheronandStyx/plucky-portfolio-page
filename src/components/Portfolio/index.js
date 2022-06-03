@@ -21,11 +21,19 @@ function Portfolio() {
       blurb: "Learn to play black jack and test your skills against a virtual dealer.",
       id: 2,
     },
+    {
+      app: "https://www.petplanet.dev/",
+      projectName: "Pet Planet",
+      repo: "https://github.com/AcheronandStyx/pet-planet",
+      imgName: "PetPlanet",
+      blurb: "Nostalgic for the Tamagotchi's of yore? Then checkout Pet Planet!",
+      id: 3,
+    }
   ];
 
   // project={project}
   return (
-    <div class="portfolio">
+    <div class="portfolio, content">
       <div class="container">
         <Grid container spacing={8}>
           {projects.map((project) => {

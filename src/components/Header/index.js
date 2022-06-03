@@ -7,7 +7,7 @@ function Header(props) {
   return (
     <header className="flex-row px-1">
       <h1>
-        <p>Matthew Danielson</p>
+        Matthew Danielson
       </h1>
       <Nav activePage={activePage} setActivePage={setActivePage}></Nav>
     </header>

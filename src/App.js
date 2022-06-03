@@ -40,7 +40,7 @@ function App() {
   return (
     <div>
       <Header activePage={activePage} setActivePage={setActivePage}></Header>
-      <div class="content">{swapPage()}</div>
+      <section class="content">{swapPage()}</section>
       <Footer></Footer>
     </div>
   );
