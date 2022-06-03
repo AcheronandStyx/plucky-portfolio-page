@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/plucky-portfolio-page/static/css/main.461cb2a8.css",
-    "main.js": "/plucky-portfolio-page/static/js/main.f5f0e6b2.js",
+    "main.css": "/plucky-portfolio-page/static/css/main.d44e072e.css",
+    "main.js": "/plucky-portfolio-page/static/js/main.6fceeae4.js",
     "static/js/787.62a516ab.chunk.js": "/plucky-portfolio-page/static/js/787.62a516ab.chunk.js",
     "static/media/FullStackJack.png": "/plucky-portfolio-page/static/media/FullStackJack.736b1d46b9416655cf46.png",
     "static/media/findAFlick.png": "/plucky-portfolio-page/static/media/findAFlick.a547527c90a4db998219.png",
     "static/media/Headshot.jpg": "/plucky-portfolio-page/static/media/Headshot.1b426310f098ae8799f7.jpg",
     "index.html": "/plucky-portfolio-page/index.html",
-    "main.461cb2a8.css.map": "/plucky-portfolio-page/static/css/main.461cb2a8.css.map",
-    "main.f5f0e6b2.js.map": "/plucky-portfolio-page/static/js/main.f5f0e6b2.js.map",
+    "main.d44e072e.css.map": "/plucky-portfolio-page/static/css/main.d44e072e.css.map",
+    "main.6fceeae4.js.map": "/plucky-portfolio-page/static/js/main.6fceeae4.js.map",
     "787.62a516ab.chunk.js.map": "/plucky-portfolio-page/static/js/787.62a516ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.461cb2a8.css",
-    "static/js/main.f5f0e6b2.js"
+    "static/css/main.d44e072e.css",
+    "static/js/main.6fceeae4.js"
   ]
 }
